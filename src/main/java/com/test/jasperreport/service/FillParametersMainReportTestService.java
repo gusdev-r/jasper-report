@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Service
-public class FillParametersMainReportTest {
+public class FillParametersMainReportTestService {
 
     public Map<String,Object> fillReportParam(Report parametersFromRequest) {
         //TODO: add a looping to iterate in each element from request and add each element key object
